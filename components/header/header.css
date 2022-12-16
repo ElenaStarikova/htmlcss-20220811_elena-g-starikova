@@ -10,3 +10,132 @@
     line-height: 64px;
     color: var(--black);
 }
+ 
+
+.subheader {
+    width: 1110px;
+    height: 34px;
+    background: blue;
+     position: relative;
+   }
+   .figures {
+     background: red;
+   position: absolute;
+   /*   height 10px;
+     width: 40px; */
+   top: 0px;
+     left: 30px; 
+   /*   bottom: 14px; */
+     display: flex;
+     column-gap: 8px;
+     
+   }
+   .square {
+     width: 30px;
+   height: 30px;
+   
+   /* Black */
+   
+   background: #212429;
+     flex: none;
+   order: 0;
+   flex-grow: 0;
+   }
+   .cicle {
+     width: 32px;
+   height: 32px;
+   
+   /* Black */
+   
+   background: #212429;
+   border-radius: 112px;
+     flex: none;
+   order: 1;
+   flex-grow: 0;
+   }
+   .triangle {
+     width: 0px;
+   height: 0px;
+   
+   /* Black */
+   
+   background: #212429;
+   
+   /* Inside auto layout */
+       width: 0;
+       height: 0;
+       border-top: 32px solid red; 
+       border-left: 32px solid transparent;	
+   
+   
+   
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+   }
+   .links {
+     background: yellow;
+     position: absolute;
+   top: 8px;
+     left: 643px;
+    
+   
+   /*   height 10px;
+     width: 40px; */
+   display: flex;
+     column-gap: 24px;
+   }
+   .links__item {
+     text-decoration: none;
+     font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+     color: #ACB5BD;
+   }
+   .links__item_checked{
+     color: #212429;
+   }
+   
+   .darklight {
+      
+     position: absolute;
+   top: 4px;
+     right: 108px;
+     
+     background: green;
+   
+   
+   display: flex;
+     align-items: center;
+     column-gap: 15px;
+   }
+   .toggle {
+     background: #FFFFFF;
+   /* Gray 3 */
+     width: 52px;
+   height: 28px;
+   
+   border: 1px solid #ACB5BD;
+   border-radius: 16px;
+     position: relative;
+   }
+   .toggle__button {
+     position: absolute;
+     width: 24px;
+   height: 24px;
+    left: 2px;
+   top: 2px;
+   
+   /* Gray 3 */
+   
+   background: black;
+   border-radius: 16px;
+   }
+
+@media screen and (max-width: 768px) {
+    .header {
+        
+    }
+}
